@@ -1,0 +1,66 @@
+.HeroPFP{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.hero{
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 35px;
+}
+.hero h1{
+    font-size: 90px;
+    font-weight: 600;
+    text-align: center;
+}
+.hero h1 span{
+    background: linear-gradient(260deg, rgba(117, 60, 60, 0.479) 0%, rgba(15, 15, 15, 0.479) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero p{
+    text-align: center;
+    line-height: 40px;
+    width: 50%;
+    font-size: 24px;
+}
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-connect{
+    padding:20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(260deg, rgba(117, 60, 60, 0.479) 0%, rgba(15, 15, 15, 0.479) 100%);
+    font-size:22px;
+    cursor: pointer;
+    transition: 0.3s;   
+      backdrop-filter: blur(10px);
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+.hero-connect:hover{
+    border-color:rgba(117, 60, 60, 0.479);
+        scale:1.1;
+}
+.hero-resume{
+  padding: 20px 40px;
+  border-radius: 50px;
+  font-size:22px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.1); /* transparent overlay */
+    backdrop-filter: blur(10px);
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+
+}
+.hero-resume:hover{
+    border-color:rgba(117, 60, 60, 0.479);
+    scale:1.1;
+}
