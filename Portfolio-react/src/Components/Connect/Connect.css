@@ -106,3 +106,34 @@ padding: 20px 40px;
     transform: scale(1.05);
     
 }
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0; 
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+
+}
+.modal-content {
+
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  position: relative; 
+  text-align: center;
+    background: rgb(48, 42, 42);
+    color:rgb(113,95,95)
+}
+.modal-close {
+  position: absolute;
+  top: 10px; right: 16px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #888;
+}

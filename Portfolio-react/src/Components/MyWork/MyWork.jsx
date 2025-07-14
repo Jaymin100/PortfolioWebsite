@@ -4,7 +4,7 @@ import mywork_data from '../../assets/mywork_data'
 
 const MyWork = () => {
   return (
-    <div className="my-work">
+    <div id ="project" className="my-work">
         <div className="my-work-title">
             <h1>My Work</h1>
         </div>

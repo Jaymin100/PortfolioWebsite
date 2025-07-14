@@ -3,8 +3,10 @@
     height: 150px;
     border-radius: 50%;
     margin-bottom: 20px;
+
 }
 .hero{
+    
 display: flex;
 align-items: center;
 flex-direction: column;
@@ -58,9 +60,14 @@ gap: 35px;
   border: 2px solid rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   transition: 0.3s;
-
+    text-decoration: none;
+    color: inherit;
 }
 .hero-resume:hover{
     border-color:rgba(117, 60, 60, 0.479);
     scale:1.1;
+}
+.hero-action a {
+  color: inherit !important;
+  text-decoration: none !important;
 }

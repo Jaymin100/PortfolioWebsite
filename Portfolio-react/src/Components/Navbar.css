@@ -47,3 +47,32 @@
 .nav-resume:hover{
     scale: 1.1;
 }
+.Nav-Menu li p {
+  position: relative;
+}
+
+.Nav-Menu li p::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #753c3c 0%, #0f0f0f 100%);
+  border-radius: 2px;
+  margin-top: 4px;
+  opacity: 0;
+  transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s;
+}
+
+.Nav-Menu li.active p::after {
+  width: 60%;
+  opacity: 1;
+}
+.Nav-Menu a {
+  color: inherit;
+  text-decoration: none;
+}
+.nav-actions a{
+    text-decoration: none;
+    color: inherit;
+}

@@ -9,18 +9,19 @@
 
 
 }
-.mywork-title{
+.my-work-title{
     position: relative;
     text-align: center;
 }
-.mywork-title h1{
+.my-work-title h1{
+        font-size: 80px;
     padding:0px 30px;
-    font-size: 80px;
-    text-transform: uppercase;
+
     font-weight: 600;
 }
-.mywork-title img{
+.my-work-title img{
     position: absolute;
+    margin: 20px 20px;
     bottom: 0;
     right: 0;
     z-index: -1;
