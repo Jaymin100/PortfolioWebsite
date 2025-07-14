@@ -30,31 +30,6 @@ This is my personal portfolio website, built with React and Vite. It showcases m
 
 ---
 
-## 📸 Screenshot
-
-![Portfolio Screenshot](Portfolio-react/src/assets/Jaymin.png)
-
----
-
-## 🛠️ Setup & Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/<YOUR_GITHUB_USERNAME>/PortfolioWebsite.git
-   cd PortfolioWebsite/Portfolio-react
-   ```
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-3. **Run the development server:**
-   ```bash
-   npm run dev
-   ```
-4. **Open in your browser:**
-   Visit `http://localhost:5173` (or the port shown in your terminal)
-
----
 
 ## 📬 Contact
 
