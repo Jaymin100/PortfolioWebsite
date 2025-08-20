@@ -33,7 +33,7 @@ This is my personal portfolio website, built with React and Vite. It showcases m
 
 ## 📬 Contact
 
-Want to get in touch? Reach out via the contact form on the website or email me at: `jaymin@example.com`
+Want to get in touch? Reach out via the contact form on the website or email me at: `jayminswedlund1@example.com`
 
 ---
 
