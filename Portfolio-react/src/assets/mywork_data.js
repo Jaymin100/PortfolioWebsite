@@ -1,5 +1,5 @@
-import project1_img from '../assets/Logo.webp'
-import project2_img from '../assets/Logo.webp'
+import project1_img from '../assets/CampusNav.PNG'
+import project2_img from '../assets/CardVault.PNG'
 import project3_img from '../assets/Logo.webp'
 import project4_img from '../assets/Logo.webp'
 import project5_img from '../assets/Logo.webp'

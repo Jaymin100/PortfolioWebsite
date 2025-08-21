@@ -9,7 +9,6 @@ const Footer = () => {
           <h2>Jaymin Swedlund</h2>
           <p>
             Full Stack Developer passionate about building dynamic, responsive web applications.<br />
-            Specializing in front-end & back-end development, with a keen interest in machine learning.
           </p>
         </div>
         <div className="footer-top-right">

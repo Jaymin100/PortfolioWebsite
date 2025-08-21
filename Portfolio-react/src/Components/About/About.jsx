@@ -13,12 +13,16 @@ const About = () => {
         </div>
         <div className="about-right">
             <div className="about-para">
-                <p>
-                    Hi, I'm Jaymin, a Full Stack Developer with a passion for
-                    creating dynamic and responsive web applications. I specialize
-                    in both front-end and back-end development, with a keen interest
-                    in machine learning technologies.
-                </p>
+<p>
+  Hi, I'm Jaymin, a Full Stack Developer passionate about building 
+  <strong>scalable, user-friendly, and high-performance web applications</strong>. 
+  I specialize in <strong> front-end development with React/Next.js</strong> and 
+  <strong> back-end development with Node.js, Express, and PostgreSQL</strong>. 
+  I enjoy turning complex problems into elegant solutions, writing clean and 
+  maintainable code, and collaborating on impactful software projects. I also have experince 
+  with solving real world problems you can see those in my projects.
+</p>
+
             </div>
             <div className="about-skills">
                 <h2>Skills</h2>
